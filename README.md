@@ -11,18 +11,22 @@ Verify npm version:
 npm -v
 
 
-# Creating a React App
+# Creating a Vue App
 
-open your terminal in VS Code and run the Create React App command:
+open your terminal in VS Code and run the Vue command:
 
-npx create-react-app my-app
+npm create vue@latest
 
-Replace my-app with whatever you want to name your project.
+Replace my-vue-app with whatever you want to name your project.
 
 Navigate into the project folder:
 
-cd my-app
+cd my-vue-app
 
-Start the development server:
+Install dependencies:
 
-npm start
+npm install
+
+Run the development server:
+
+npm run dev
